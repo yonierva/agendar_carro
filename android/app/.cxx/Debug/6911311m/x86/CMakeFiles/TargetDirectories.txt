@@ -1,0 +1,2 @@
+D:/importante/curso flutter/agendar_carro/android/app/.cxx/Debug/6911311m/x86/CMakeFiles/edit_cache.dir
+D:/importante/curso flutter/agendar_carro/android/app/.cxx/Debug/6911311m/x86/CMakeFiles/rebuild_cache.dir
