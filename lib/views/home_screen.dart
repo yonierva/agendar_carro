@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/views/carro_screen.dart'; // Asegúrate de importar tu CarScreen
 import 'package:provider/provider.dart';
-import 'package:myapp/viewmodels/carro_viewmodel.dart'; // Asegúrate de importar el CarViewModel
+import 'package:myapp/viewmodels/carro_viewmodel.dart';
+import 'scanqr_screen.dart'; // Asegúrate de importar el CarViewModel
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -51,17 +52,3 @@ class HomeScreen extends StatelessWidget {
   }
 }
 
-// Pantalla vacía de ejemplo para escanear QR
-class ScanQrScreen extends StatelessWidget {
-  const ScanQrScreen({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Escanear QR')),
-      body: const Center(
-        child: Text('Aquí irá el lector de QR.'),
-      ),
-    );
-  }
-}
